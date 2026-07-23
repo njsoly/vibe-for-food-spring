@@ -1,0 +1,31 @@
+## Python
+
+```
+import http.client
+
+conn = http.client.HTTPSConnection("api.weather.gov")
+payload = ''
+headers = {
+  'User-Agent': 'User-Agent: (myweatherapp.syntj.com, njsoly@live.com)',
+  'Cookie': 'dtCookie1up6hiss=v_4_srv_3_sn_965B2CEFC71BF3ACD5AB96F96E32BD0B_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1'
+}
+conn.request("GET", "/points/45.086925990157255,-93.240424990654", payload, headers)
+res = conn.getresponse()
+data = res.read()
+print(data.decode("utf-8"))
+```
+
+
+## wget (Bash)
+
+```
+wget --no-check-certificate --quiet \
+  --method GET \
+  --timeout=0 \
+  --header 'User-Agent: User-Agent: (myweatherapp.syntj.com, njsoly@live.com)' \
+  --header 'Cookie: dtCookie1up6hiss=v_4_srv_3_sn_965B2CEFC71BF3ACD5AB96F96E32BD0B_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1' \
+   'api.weather.gov/points/45.086925990157255,-93.240424990654'
+   
+```
+
+
