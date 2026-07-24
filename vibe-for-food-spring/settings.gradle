@@ -5,3 +5,5 @@ pluginManagement {
     }
 }
 rootProject.name = 'vibe-for-food-spring'
+
+include 'trijton-260723'

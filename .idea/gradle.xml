@@ -9,7 +9,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/vibe-for-food-spring" />
-            <option value="$PROJECT_DIR$/vibe-for-food-spring/triton-260723" />
+            <option value="$PROJECT_DIR$/vibe-for-food-spring/trijton-260723" />
           </set>
         </option>
       </GradleProjectSettings>
