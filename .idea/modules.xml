@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/shelly/shelly.iml" filepath="$PROJECT_DIR$/shelly/shelly.iml" />
       <module fileurl="file://$PROJECT_DIR$/vibe-for-food.iml" filepath="$PROJECT_DIR$/vibe-for-food.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/vibe-for-food-spring.main.iml" filepath="$PROJECT_DIR$/.idea/modules/vibe-for-food-spring.main.iml" />
     </modules>
