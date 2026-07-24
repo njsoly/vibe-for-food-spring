@@ -1,9 +1,9 @@
 # vibe-for-food Spring
 
 
-This project is meant to be a bunch of stuff.
+This project is meant to be some Spring stuff inside a bunch of stuff.
 
-## The point of it
+## Links
+* Back to [root README](../README.md)
 
-Don't worry about it.
 
